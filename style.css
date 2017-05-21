@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
+body {
+    font-family: Ubuntu, 'Times New Roman', serif;
+    color: #1b2427;
+    background-image: url("59.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+a{
+    color: #fa6559;
+    text-shadow: 0.5px 0.5px #a06a65;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #1b2427;
+    text-shadow: 0.5px 0.5px #fa6559;
+    margin: 2% 8%;
+}
+h1 {
+    font-size: 7em; /* scalable font-size? */
+}
+h2 {
+    font-size: 5em;
+}
+h3 {
+    text-align: center;
+    text-shadow: none;
+}
+
+#zen-summary, #zen-preamble, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements {
+    background-color: rgba(208, 181, 178, 0.5);
+    display: inline-block;
+    margin: 1% 20%;
+    padding: 1% 2% 2% 2%;
+    border-radius: 12px;
+    text-align: justify;
+}
+
+#zen-summary:hover, #zen-preamble:hover, #zen-explanation:hover, #zen-participation:hover, #zen-benefits:hover, #zen-requirements:hover{
+    background-color: rgb(208, 181, 178);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
+
+footer {
+    padding: 2% 1%;
+    position: fixed;
+    left: 0;
+    top: 15%;
+    float:left;
+    clear:left;
+}
+footer a {
+    display:block;
+    padding: 20%;
+    margin: 50% 0%;
+    background-color: #1b2427;
+    border-radius: 12px;
+    border: 0.5px solid #1b2427;
+    text-decoration: none;
+}
+
+footer a:hover {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
+.wrapper {
+    display: inline-flex;
+    margin: 4% 10% 2% 10%;
+}
+.wrapper li {
+    text-align: left;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+#design-selection, #design-archives, #zen-resources {
+    background-color: rgba(208, 181, 178, 0.5);
+    border-radius: 12px;
+}
+#design-selection:hover, #design-archives:hover, #zen-resources:hover {
+    background-color: rgb(208, 181, 178);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
+#design-archives {
+    margin: 0% 2.5%;
+}
+
+/*
+body
+p
+h1
+h2
+h3
+footer
+#zen-into
+#zen-summary
+#zen-preamble
+#design-selection
+
+    font-family, color, background-color, text-align
+    padding, margin, width, height, top, left
+    display, position
+
+/*
